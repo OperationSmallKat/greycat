@@ -948,11 +948,11 @@
 	<type>hidfast</type>
 	<index>14</index>
 	<scale>-0.33</scale>
-	<upperLimit>119.49253731343285</upperLimit>
-	<lowerLimit>33.74999999999999</lowerLimit>
+	<upperLimit>126.99253731343285</upperLimit>
+	<lowerLimit>3.749999999999994</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>70.10883999122036</staticOffset>
+	<staticOffset>45.266310908691835</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>235</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
