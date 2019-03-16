@@ -807,11 +807,11 @@
 	<type>hidfast</type>
 	<index>11</index>
 	<scale>-0.33</scale>
-	<upperLimit>16.875000000000018</upperLimit>
-	<lowerLimit>13.125</lowerLimit>
+	<upperLimit>43.125000000000014</upperLimit>
+	<lowerLimit>5.624999999999999</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>81.05238970588236</staticOffset>
+	<staticOffset>100.0</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>235</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
