@@ -2,7 +2,7 @@
 def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/SmallKat_V2.git", 
 								"loadRobot.groovy", 
 ["https://github.com/OperationSmallKat/greycat.git",
-		"MediumKat.xml"]);
+		"MediumKat.xml","GameController_22"]);
 
 def gameController = ScriptingEngine.gitScriptRun(
             "https://gist.github.com/e26c0d8ef7d5283ef44fb22441a603b8.git", // git location of the library
@@ -21,6 +21,7 @@ double toSeconds=0.03//100 ms for each increment
 
 while (!Thread.interrupted()){
 	Thread.sleep((long)(toSeconds*1000))
+	data = gameController.getData() 
 	double xdata = data[4]
 	double rzdata = data[3]
 	double rxdata = data[1]
@@ -46,17 +47,17 @@ while (!Thread.interrupted()){
 	}
 	try{
 		if(Math.abs(rotx)>0.1 || Math.abs(roty)>0.1){
+			println "tilt "+rotx+" rot "+roty
 			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,0,roty))
 			cat.getWalkingDriveEngine().pose(move)
 		}
 		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.1){
 			println "displacement "+displacement+" rot "+rot
-			println "tilt "+rotx+" rot "+roty
+			
 			
 			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,rot,roty))
 			cat.DriveArc(move, toSeconds);
 		}
-	}
-	catch(Throwable t){}
+	}catch(Throwable t){}
 	
 }
