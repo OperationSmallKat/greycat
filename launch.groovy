@@ -16,16 +16,18 @@ if(gameController==null){
 	return 
 }
 
-byte [] data = gameController.getData() 
-double toSeconds=0.03//100 ms for each increment
+int [] data = gameController.getData() 
+double toSeconds=0.06//100 ms for each increment
 
 while (!Thread.interrupted()){
 	Thread.sleep((long)(toSeconds*1000))
 	data = gameController.getData() 
-	double xdata = data[4]
-	double rzdata = data[3]
-	double rxdata = data[1]
-	double rydata = data[2]
+	//println data
+	double xdata = data[3]
+	double rzdata = data[2]
+	double rxdata = data[0]
+	double rydata = data[1]
+	/*
 	if(xdata<0)
 		xdata+=256
 	if(rzdata<0)
@@ -34,6 +36,7 @@ while (!Thread.interrupted()){
 		rxdata+=256
 	if(rydata<0)
 		rydata+=256
+		*/
 	double scale = 1.0
 	double displacement = 15*(scale*xdata/255.0-scale/2)
 	double rot =((scale*rzdata/255.0)-scale/2)*-2.5
