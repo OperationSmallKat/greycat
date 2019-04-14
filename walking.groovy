@@ -67,7 +67,7 @@ double stepOverHeight=10;
 
 return ScriptingEngine
           .gitScriptRun(
-            "https://github.com/CommonWealthRobotics/SmallKat.git", // git location of the library
+            "https://github.com/OperationSmallKat/SmallKat_V2.git", // git location of the library
             "Bowler/DynamicWalking.groovy" , // file to load
             ar
          )
