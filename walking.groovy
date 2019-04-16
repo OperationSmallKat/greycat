@@ -16,7 +16,7 @@ import com.neuronrobotics.sdk.addons.kinematics.IDriveEngine;
 
 
 double stepOverHeight=15;
-	long stepOverTime=250;// Servo loop times number of points times Nyquest doubeling
+	long stepOverTime=300;// Servo loop times number of points times Nyquest doubeling
 	Double zLock=0;
 	Closure calcHome = { DHParameterKinematics leg -> 
 			TransformNR h=leg.calcHome() 
@@ -47,8 +47,8 @@ double stepOverHeight=15;
 	double staticPanOffset = 20
 	double coriolisGain = 1
 	boolean headStable = false
-	double maxBodyDisplacementPerStep = 30
-	double minBodyDisplacementPerStep = 30
+	double maxBodyDisplacementPerStep = 40
+	double minBodyDisplacementPerStep = 40
 	def ar =  [stepOverHeight,
 	stepOverTime,
 	zLock,
