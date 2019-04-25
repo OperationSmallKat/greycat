@@ -17,7 +17,7 @@ if(gameController==null){
 }
 
 int [] data = gameController.getData() 
-double toSeconds=0.06//100 ms for each increment
+double toSeconds=0.01//100 ms for each increment
 
 while (!Thread.interrupted()){
 	Thread.sleep((long)(toSeconds*1000))
