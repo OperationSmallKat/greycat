@@ -49,11 +49,6 @@ while (!Thread.interrupted()){
 		rot=0
 	}
 	try{
-		if(Math.abs(rotx)>0.2 || Math.abs(roty)>0.2){
-			//println "tilt "+rotx+" rot "+roty
-			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,0,roty))
-			cat.getWalkingDriveEngine().pose(move)
-		}
 		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.1){
 			println "displacement "+displacement+" rot "+rot
 			
@@ -61,6 +56,12 @@ while (!Thread.interrupted()){
 			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,rot,roty))
 			cat.DriveArc(move, toSeconds);
 		}
+		if(Math.abs(rotx)>2 || Math.abs(roty)>2){
+			println "tilt "+rotx+" rot "+roty
+			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,0,roty))
+			cat.getWalkingDriveEngine().pose(move)
+		}
+
 	}catch(Throwable t){
 		
 		BowlerStudio.printStackTrace(t)
