@@ -40,12 +40,12 @@ double stepOverHeight=15;
 	}
 	boolean usePhysicsToMove = true;
 	long stepCycleTime =600
-	long walkingTimeout =stepCycleTime*2
+	long walkingTimeout =stepCycleTime*4
 	int numStepCycleGroups = 2
 	
 	double standardHeadTailAngle = -20
 	double staticPanOffset = 20
-	double coriolisGain = 1
+	double coriolisGain = 1.5
 	boolean headStable = true
 	double maxBodyDisplacementPerStep = 40
 	double minBodyDisplacementPerStep = 40
