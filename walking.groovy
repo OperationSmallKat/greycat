@@ -40,7 +40,7 @@ double stepOverHeight=15;
 	}
 	boolean usePhysicsToMove = true;
 	long stepCycleTime =600
-	long walkingTimeout =stepCycleTime
+	long walkingTimeout =stepCycleTime*2
 	int numStepCycleGroups = 2
 	
 	double standardHeadTailAngle = -20
