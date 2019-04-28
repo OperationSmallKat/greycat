@@ -50,14 +50,14 @@ while (!Thread.interrupted()){
 	}
 	try{
 		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.1){
-			println "displacement "+displacement+" rot "+rot
+			//println "displacement "+displacement+" rot "+rot
 			
 			
 			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,rot,roty))
 			cat.DriveArc(move, toSeconds);
 		}
 		if(Math.abs(rotx)>2 || Math.abs(roty)>2){
-			println "tilt "+rotx+" rot "+roty
+			//println "tilt "+rotx+" rot "+roty
 			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,0,roty))
 			cat.getWalkingDriveEngine().pose(move)
 		}
