@@ -61,6 +61,10 @@ while (!Thread.interrupted()){
 			TransformNR move = new TransformNR(displacement,0,0,new RotationNR(rotx,rot,roty))
 			cat.DriveArc(move, toSeconds);
 		}
-	}catch(Throwable t){}
+	}catch(Throwable t){
+		
+		BowlerStudio.printStackTrace(t)
+		
+	}
 	
 }
