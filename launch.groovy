@@ -39,7 +39,7 @@ while (!Thread.interrupted()){
 		*/
 	double scale = 0.25
 	double displacement = 40*(scale*xdata/255.0-scale/2)
-	double displacementY = 20*(scale*rxdata/255.0-scale/2)
+	double displacementY =10*(scale*rxdata/255.0-scale/2)
 	
 	double rot =((scale*rzdata/255.0)-scale/2)*-2.5
 	double rotx =((rxdata/255.0)-scale/2)*5
