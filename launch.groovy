@@ -51,8 +51,8 @@ while (!Thread.interrupted()){
 		rot=0
 	}
 	try{
-		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.1){
-			//println "displacement "+displacement+" rot "+rot
+		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.1 ||Math.abs(displacementY)>0.1  ){
+			println "displacement "+displacement+" rot "+rot+" straif = "+displacementY
 			
 			
 			TransformNR move = new TransformNR(displacement,displacementY,0,new RotationNR(rotx,rot,roty))
