@@ -26,9 +26,9 @@ double stepOverHeight=17.5;
 			//Bambi-on-ice the legs a bit
 
 			if(legRoot.getY()>0){
-				tr.translateY(10)
+				//tr.translateY(10)
 			}else{
-				tr.translateY(-10)
+				//tr.translateY(-10)
 			}
 
 			if(legRoot.getX()>0){
