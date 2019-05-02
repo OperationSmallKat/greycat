@@ -330,11 +330,11 @@
 	<type>hidfast</type>
 	<index>3</index>
 	<scale>0.71428</scale>
-	<upperLimit>163.125</upperLimit>
+	<upperLimit>178.3488805970149</upperLimit>
 	<lowerLimit>9.375</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>139.4665002194908</staticOffset>
+	<staticOffset>144.05605245829676</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -526,10 +526,10 @@
 	<index>15</index>
 	<scale>-0.71428</scale>
 	<upperLimit>165.0</upperLimit>
-	<lowerLimit>9.375</lowerLimit>
+	<lowerLimit>7.472014925373134</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>95.7077205882353</staticOffset>
+	<staticOffset>92.22357879719051</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -724,7 +724,7 @@
 	<lowerLimit>5.625</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>92.52256639596138</staticOffset>
+	<staticOffset>96.27256639596138</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
