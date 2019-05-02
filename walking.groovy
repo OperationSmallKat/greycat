@@ -15,7 +15,7 @@ import com.neuronrobotics.sdk.util.ThreadUtil;
 import com.neuronrobotics.sdk.addons.kinematics.IDriveEngine;
 
 
-double stepOverHeight=17.5;
+double stepOverHeight=7.5;
 	long stepOverTime=200;// Servo loop times number of points times Nyquest doubeling
 	Double zLock=0;
 	Closure calcHome = { DHParameterKinematics leg -> 
@@ -44,7 +44,7 @@ double stepOverHeight=17.5;
 	int numStepCycleGroups = 2
 	
 	double standardHeadTailAngle = -20
-	double staticPanOffset = 30
+	double staticPanOffset = 20
 	double coriolisGain = 1.1
 	boolean headStable = true
 	double maxBodyDisplacementPerStep = 40
