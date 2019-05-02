@@ -26,9 +26,9 @@ double stepOverHeight=17.5;
 			//Bambi-on-ice the legs a bit
 
 			if(legRoot.getY()>0){
-				//tr.translateY(10)
+				tr.translateY(10)
 			}else{
-				//tr.translateY(-10)
+				tr.translateY(-10)
 			}
 
 			if(legRoot.getX()>0){
@@ -44,8 +44,8 @@ double stepOverHeight=17.5;
 	int numStepCycleGroups = 2
 	
 	double standardHeadTailAngle = -20
-	double staticPanOffset = 20
-	double coriolisGain = 1
+	double staticPanOffset = 30
+	double coriolisGain = 1.1
 	boolean headStable = true
 	double maxBodyDisplacementPerStep = 40
 	double minBodyDisplacementPerStep = 40
