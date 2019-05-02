@@ -41,7 +41,7 @@ while (!Thread.interrupted()){
 	double displacement = 40*(scale*xdata/255.0-scale/2)
 	double displacementY =-10*(scale*rxdata/255.0-scale/2)
 	
-	double rot =((scale*rzdata/255.0)-scale/2)*-2.5
+	double rot =((scale*2.0*rzdata/255.0)-scale)*-2.5
 	double rotx =((rxdata/255.0)-scale/2)*5
 	double roty =((rydata/255.0)-scale/2)*-5
 	if(Math.abs(displacement)<0.1 ){
@@ -51,7 +51,7 @@ while (!Thread.interrupted()){
 		rot=0
 	}
 	try{
-		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.1 ||Math.abs(displacementY)>0.1  ){
+		if(Math.abs(displacement)>0.1 || Math.abs(rot)>0.01 ||Math.abs(displacementY)>0.1  ){
 			//println "displacement "+displacement+" rot "+rot+" straif = "+displacementY
 			
 			
