@@ -34,7 +34,7 @@ while (!Thread.interrupted()){
 		rzdata+=256
 	if(rxdata<0)
 		rxdata+=256
-	if(rydata<0)
+	if(rydata<0)7
 		rydata+=256
 		*/
 	double scale = 0.25
