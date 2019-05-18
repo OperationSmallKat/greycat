@@ -1095,7 +1095,7 @@
 	<mass>0.01</mass>
 	<centerOfMassFromCentroid>	<x>-50</x>
 	<y>0</y>
-	<z>150</z>
+	<z>110</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
 	<roty>0.0</roty>
