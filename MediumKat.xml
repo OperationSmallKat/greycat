@@ -81,7 +81,7 @@
 	<type>hidfast</type>
 	<index>2</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>123.75000000000001</upperLimit>
+	<upperLimit>142.0</upperLimit>
 	<lowerLimit>5.625</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
@@ -1093,16 +1093,16 @@
 	<rotz>-0.0</rotz>
 </baseToZframe>
 	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>-50</x>
-	<y>0</y>
-	<z>110</z>
+	<centerOfMassFromCentroid>	<x>-50.0</x>
+	<y>0.0</y>
+	<z>110.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
 	<roty>0.0</roty>
 	<rotz>0.0</rotz></centerOfMassFromCentroid>
 	<imuFromCentroid>	<x>0.0</x>
 	<y>0.0</y>
-	<z>120</z>
+	<z>120.0</z>
 	<rotw>1.0</rotw>
 	<rotx>-0.0</rotx>
 	<roty>-0.0</roty>
