@@ -48,7 +48,7 @@ double stepOverHeight=7.5;
 	double coriolisGain = 1.1
 	boolean headStable = true
 	double maxBodyDisplacementPerStep = 40
-	double minBodyDisplacementPerStep = 40
+	double minBodyDisplacementPerStep = 20
 	def ar =  [stepOverHeight,
 	stepOverTime,
 	zLock,
