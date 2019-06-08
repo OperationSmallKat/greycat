@@ -37,7 +37,7 @@ while (!Thread.interrupted()){
 	if(rydata<0)7
 		rydata+=256
 		*/
-	double scale = 0.25
+	double scale = 0.15
 	double displacement = 40*(scale*xdata/255.0-scale/2)
 	double displacementY =-10*(scale*rxdata/255.0-scale/2)
 	
