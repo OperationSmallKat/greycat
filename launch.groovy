@@ -10,10 +10,8 @@ def gameController = ScriptingEngine.gitScriptRun(
             ["GameController_22"]
             );
 if(gameController==null){
-
 	return 
 }
-
 int [] data = gameController.getData() 
 double toSeconds=0.01//100 ms for each increment
 
