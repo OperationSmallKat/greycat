@@ -8,8 +8,7 @@ def gameController = ScriptingEngine.gitScriptRun(
             "LoadGameController.groovy" , // file to load
             // Parameters passed to the function
             ["GameController_22"]
-            )
-         
+            );
 if(gameController==null){
 
 	return 
