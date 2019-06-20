@@ -1,4 +1,3 @@
-
 def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/SmallKat_V2.git", 
 								"loadRobot.groovy", 
 ["https://github.com/OperationSmallKat/greycat.git",
