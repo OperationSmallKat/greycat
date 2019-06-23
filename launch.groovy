@@ -10,7 +10,7 @@ def gameController = ScriptingEngine.gitScriptRun(
             // Parameters passed to the function
             ["GameController_22"]
             );
-}carch (Exception ex){
+}catch (Exception ex){
 	return
 }
 if(gameController==null){
