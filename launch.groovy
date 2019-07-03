@@ -5,12 +5,12 @@ def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/Sma
 println "Cat loaded, searching for game controller"
 def gameController =null
 try{
- gameController = ScriptingEngine.gitScriptRun(
-            "https://gist.github.com/e26c0d8ef7d5283ef44fb22441a603b8.git", // git location of the library
-            "LoadGameController.groovy" , // file to load
-            // Parameters passed to the function
-            ["GameController_22"]
-            );
+	 gameController = ScriptingEngine.gitScriptRun(
+	            "https://gist.github.com/e26c0d8ef7d5283ef44fb22441a603b8.git", // git location of the library
+	            "LoadGameController.groovy" , // file to load
+	            // Parameters passed to the function
+	            ["GameController_22"]
+	            );
 }catch (Exception ex){
 	ex.printStackTrace()
 	return
@@ -21,7 +21,7 @@ if(gameController==null){
 }
 int [] data = gameController.getData() 
 double toSeconds=0.01//100 ms for each increment
-
+println "Starting controller loop..."
 while (!Thread.interrupted()){
 	Thread.sleep((long)(toSeconds*1000))
 	data = gameController.getData() 
