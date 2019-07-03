@@ -3,14 +3,16 @@ def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/Sma
 ["https://github.com/OperationSmallKat/greycat.git",
 		"MediumKat.xml","GameController_22"]);
 println "Cat loaded, searching for game controller"
+def gameController =null
 try{
-def gameController = ScriptingEngine.gitScriptRun(
+ gameController = ScriptingEngine.gitScriptRun(
             "https://gist.github.com/e26c0d8ef7d5283ef44fb22441a603b8.git", // git location of the library
             "LoadGameController.groovy" , // file to load
             // Parameters passed to the function
             ["GameController_22"]
             );
 }catch (Exception ex){
+	ex.printStackTrace()
 	return
 }
 if(gameController==null){
