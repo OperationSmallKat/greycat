@@ -807,7 +807,7 @@
 	<type>hidfast</type>
 	<index>11</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>110.0</upperLimit>
+	<upperLimit>140.0</upperLimit>
 	<lowerLimit>5.624999999999999</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
