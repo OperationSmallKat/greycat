@@ -1,7 +1,7 @@
 def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/SmallKat_V2.git", 
 								"loadRobot.groovy", 
 ["https://github.com/OperationSmallKat/greycat.git",
-		"MediumKat.xml","GameController_22"]);
+		"MediumKat.xml","GameController_22","hidDevice"]);
 println "Cat loaded, searching for game controller"
 def gameController =null
 try{
