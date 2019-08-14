@@ -14,7 +14,7 @@ import com.neuronrobotics.sdk.addons.kinematics.math.TransformNR;
 import com.neuronrobotics.sdk.util.ThreadUtil;
 import com.neuronrobotics.sdk.addons.kinematics.IDriveEngine;
 
-double stepOverHeight=7.5;
+double stepOverHeight=15;
 	long stepOverTime=150;// Servo loop times number of points times Nyquest doubeling
 	Double zLock=   7.5;
 	Closure calcHome = { DHParameterKinematics leg -> 
