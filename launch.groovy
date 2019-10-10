@@ -20,7 +20,7 @@ if(gameController==null){
 	return 
 }
 int [] data = gameController.getData() 
-double toSeconds=0.01//100 ms for each increment
+double toSeconds=0.02//100 ms for each increment
 println "Starting controller loop..."
 while (!Thread.interrupted() ){
 	Thread.sleep((long)(toSeconds*1000))
