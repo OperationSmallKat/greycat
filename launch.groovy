@@ -14,7 +14,7 @@ try{
 
 // This is in development again once more
 }catch (Exception ex){
-	ex.printStackTrace()
+	//ex.printStackTrace()
 	return
 }
 if(gameController==null){
