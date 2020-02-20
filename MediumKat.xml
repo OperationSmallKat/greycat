@@ -5,8 +5,8 @@
 		<file>Bowler/MediumCad.groovy</file>
 	</cadEngine>
 	<driveEngine>
-		<git>https://github.com/OperationSmallKat/greycat.git</git>
-		<file>walking.groovy</file>
+		<git>https://github.com/OperationSmallKat/SmallKat_V2.git</git>
+		<file>Bowler/DynamicWalking.groovy</file>
 	</driveEngine>
 
 <name>MediumKat</name>
@@ -27,11 +27,11 @@
 	<type>hidfast</type>
 	<index>1</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>140.625</upperLimit>
-	<lowerLimit>61.87500000000001</lowerLimit>
+	<upperLimit>176.0</upperLimit>
+	<lowerLimit>87.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>97.33455882352942</staticOffset>
+	<staticOffset>110.85134986830553</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>105</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -51,8 +51,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0302</mass>
+	<centerOfMassFromCentroid>	<x>-1.5</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -105,8 +105,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0299</mass>
+	<centerOfMassFromCentroid>	<x>-13.21</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -139,7 +139,7 @@
 	<lowerLimit>7.5</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>92.72607550482878</staticOffset>
+	<staticOffset>82.65144863915715</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -159,9 +159,9 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
-	<y>0.0</y>
+	<mass>0.0091</mass>
+	<centerOfMassFromCentroid>	<x>-32.31</x>
+	<y>-10.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
@@ -222,11 +222,11 @@
 	<type>hidfast</type>
 	<index>5</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>101.25000000000001</upperLimit>
-	<lowerLimit>1.875</lowerLimit>
+	<upperLimit>120.0</upperLimit>
+	<lowerLimit>17.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>88.31801470588238</staticOffset>
+	<staticOffset>87.57641022827043</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>105</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -246,8 +246,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0302</mass>
+	<centerOfMassFromCentroid>	<x>-1.5</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -300,8 +300,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0299</mass>
+	<centerOfMassFromCentroid>	<x>-13.21</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -334,7 +334,7 @@
 	<lowerLimit>3.6660447761194046</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>115.7793642629696</staticOffset>
+	<staticOffset>104.04693499141692</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -354,9 +354,9 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
-	<y>0.0</y>
+	<mass>0.0091</mass>
+	<centerOfMassFromCentroid>	<x>-32.31</x>
+	<y>-10.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
@@ -421,7 +421,7 @@
 	<lowerLimit>35.625</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>90.27573529411764</staticOffset>
+	<staticOffset>64.10969051799823</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>105</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -441,8 +441,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0302</mass>
+	<centerOfMassFromCentroid>	<x>-1.5</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -471,11 +471,11 @@
 	<type>hidfast</type>
 	<index>6</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>131.72574626865674</upperLimit>
-	<lowerLimit>0.0</lowerLimit>
+	<upperLimit>158.0</upperLimit>
+	<lowerLimit>3.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>87.02622648664057</staticOffset>
+	<staticOffset>90.9583383155557</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>97</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -495,8 +495,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0299</mass>
+	<centerOfMassFromCentroid>	<x>-13.21</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -525,11 +525,11 @@
 	<type>hidfast</type>
 	<index>15</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>165.0</upperLimit>
-	<lowerLimit>7.472014925373134</lowerLimit>
+	<upperLimit>180.0</upperLimit>
+	<lowerLimit>30.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>144.07020162849057</staticOffset>
+	<staticOffset>107.0</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -549,9 +549,9 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
-	<y>0.0</y>
+	<mass>0.0091</mass>
+	<centerOfMassFromCentroid>	<x>-32.31</x>
+	<y>-10.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
@@ -616,7 +616,7 @@
 	<lowerLimit>7.5</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>75.60661764705884</staticOffset>
+	<staticOffset>79.73441615452153</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>105</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -636,8 +636,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0302</mass>
+	<centerOfMassFromCentroid>	<x>-1.5</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -670,7 +670,7 @@
 	<lowerLimit>26.25</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>48.5294117647059</staticOffset>
+	<staticOffset>54.705882352941195</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>97</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -690,8 +690,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0299</mass>
+	<centerOfMassFromCentroid>	<x>-13.21</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -724,7 +724,7 @@
 	<lowerLimit>7.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>120.08823529411765</staticOffset>
+	<staticOffset>128.99264705882354</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>145</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -744,9 +744,9 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
-	<y>0.0</y>
+	<mass>0.0091</mass>
+	<centerOfMassFromCentroid>	<x>-32.31</x>
+	<y>-10.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
@@ -811,7 +811,7 @@
 	<lowerLimit>5.624999999999999</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>72.68190298507464</staticOffset>
+	<staticOffset>89.04757462686567</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>235</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -831,8 +831,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0493</mass>
+	<centerOfMassFromCentroid>	<x>-24.46</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -860,12 +860,12 @@
 	<deviceName>kevkat</deviceName>
 	<type>hidfast</type>
 	<index>12</index>
-	<scale>-0.513</scale>
-	<upperLimit>131.25000000000003</upperLimit>
-	<lowerLimit>5.0</lowerLimit>
+	<scale>-0.714</scale>
+	<upperLimit>180.0</upperLimit>
+	<lowerLimit>30.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>102.79738257243196</staticOffset>
+	<staticOffset>117.87200943810359</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>128</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -885,8 +885,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.059</mass>
+	<centerOfMassFromCentroid>	<x>31.18</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -952,7 +952,7 @@
 	<lowerLimit>3.749999999999994</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>136.9202382375873</staticOffset>
+	<staticOffset>141.88643338127187</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>235</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -972,8 +972,8 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.0493</mass>
+	<centerOfMassFromCentroid>	<x>-24.46</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
@@ -1003,10 +1003,10 @@
 	<index>13</index>
 	<scale>-0.512698413</scale>
 	<upperLimit>180.0</upperLimit>
-	<lowerLimit>0.0</lowerLimit>
+	<lowerLimit>1.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>81.65928703988834</staticOffset>
+	<staticOffset>89.71898853242566</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>128</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -1026,9 +1026,9 @@
 
 	</vitamins>
 	<passive>false</passive>
-	<mass>0.01</mass>
+	<mass>0.0254</mass>
 	<centerOfMassFromCentroid>	<x>0.0</x>
-	<y>0.0</y>
+	<y>65.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
@@ -1092,10 +1092,10 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 </baseToZframe>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>	<x>-50.0</x>
+	<mass>0.4157</mass>
+	<centerOfMassFromCentroid>	<x>-44.36</x>
 	<y>0.0</y>
-	<z>110.0</z>
+	<z>115.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
 	<roty>0.0</roty>
